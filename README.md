@@ -1,4 +1,3 @@
 # SOEN-6471
 
-The project source code is written in Java.
-The program takes input by reading a file "clinks.txt".
+The project source code is written in Java. The program takes input by reading a file "clinks.txt". The "clinks.txt" file contains only the relevant parts of the original file containing the architecture of Mozilla Firefox version 6.0. The file is read and each unique/new relationship or dependency is counted. The program produces an output in the form of a ".csv" file, containing the precise number of counts of the various modules, a particular module depends upon. The ".csv" file also contains an accurate count of the number of modules that depend upon a particular module, along with the dependencies of the module on itself.
